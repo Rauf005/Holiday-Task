@@ -17,8 +17,7 @@ function Shop() {
   const [sortOption, setSortOption] = useState('');
 
   useEffect(() => {
-    axios
-      .get('http://localhost:3000/flowers')
+    axios.get('http://localhost:3000/flowers')
       .then((response) => {
         setItems(response.data);
         setLoading(false);
@@ -92,7 +91,7 @@ function Shop() {
                 <div className={style.cardimg}>
                   <img src={item.image} alt={item.name} />
                   <div className={style.cardhover}>
-                    <p><IoIosSearch /></p>
+                    <p><Link style={{color:"black"}} className={style.ta} to={`/shop/${item.id}`} ><IoIosSearch /></Link></p>
                     <p><FaHeart /></p>
                     <p><CiShoppingBasket /></p>
                   </div>
