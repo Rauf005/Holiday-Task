@@ -1,0 +1,73 @@
+.hero{
+    background-image: url(https://preview.colorlib.com/theme/florist/img/breadcrumb-bg.jpg);
+    background-size: 100% 100% ;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        color: #F45D96;
+    }
+}
+.contact{
+    margin: 100px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    justify-content: center;
+   
+}
+.touch{
+    h1{
+        margin-bottom: 20px;
+    }
+    strong{
+        
+        margin-bottom: 10px;
+        display: inline-block;
+
+    }
+    p{
+        display: inline-block;
+       b{
+        margin-right: 10px;
+        color: #F45D96;
+        
+       }
+    }
+}
+.reg{
+    form{
+        display: flex;
+    gap: 20px;
+    flex-direction: column;
+    input{
+        height: 40px;
+        width: 100%;
+        padding: 10px;
+        border: 1 px solid rgb(205, 205, 205);
+
+    }
+    #area{
+        height: 100px;
+    }
+    button{
+        display: block;
+        border: none;
+        color: white;
+        background-color: black;
+        width: 130px;
+        height: 60px;
+        position: absolute;
+        bottom: 40px;
+    }
+    }
+}

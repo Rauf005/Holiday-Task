@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    font-family: "Quicksand",sans-serif;
+    margin: 0px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+align-items: center;
+}
+.navbar .image{
+    cursor: pointer;
+}
+.navbar .links ul{
+    display: flex;
+    gap: 40px;
+.td{
+    text-decoration: none;
+}
+}
+.ta{
+    color: white;
+    text-decoration: none;
+}
+.navbar .links ul li{
+    color: black;
+    text-decoration: none;
+list-style: none;
+font-size: 20px;
+cursor: pointer;
+
+&:hover{
+    color: #F45DB1;
+}
+
+}
+.navbar .links ul li:hover .pages{
+display: block;
+}
+.pages{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: none;
+    
+}
+.navbar .icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icons .search p{
+font-size: 30px;
+cursor: pointer;
+}
+.icons .wishlist{
+    display: flex;
+align-items: center;
+gap: 10px;
+    
+}
+.icons .wishlist p{
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.icons .basket{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.icons .basket p{
+    font-size: 27px;
+    cursor: pointer;
+}
+.icons .basket h5{
+    color: #F45DB1;
+}

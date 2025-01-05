@@ -1,0 +1,122 @@
+.hero{
+    background-image: url(https://preview.colorlib.com/theme/florist/img/breadcrumb-bg.jpg);
+    background-size: 100% 100% ;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        color: #F45D96;
+    }
+}
+
+.products{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+    h4{
+        color: #F45D96;
+    }
+    h1{
+        margin: 10px 0;
+    }
+}
+.products .morebtn{
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    margin: 5% 0;
+    
+}
+.cards{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    .card{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        span{
+            font-weight: 700;
+        }
+        img{
+            width: 100%;
+        }
+        &:hover .cardhover{
+            overflow: hidden;
+            transform: translateY(0);
+            bottom: 23%;
+            display: flex;
+
+        }
+
+    }
+}
+
+.cardhover{
+    transition: 2s;
+    position: absolute;
+    display: none;
+    transform: translateY(100px);
+    
+    
+    
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    
+}
+.cardimg .cardhover p{
+    overflow: hidden;
+    
+   
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    &:hover {
+        background-color: #F45D96;
+        color: white;
+    }
+}
+.ss{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    #sort{
+        
+            width: 200px;
+            height: 40px;
+            border: 1px solid gray;
+        
+    }
+    input{
+        height: 40px;
+        width: 200px;
+        padding: 10px;
+        border: 1 px solid rgb(205, 205, 205);
+    }
+}

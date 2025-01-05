@@ -1,0 +1,121 @@
+.hero{
+    background-image: url(https://preview.colorlib.com/theme/florist/img/breadcrumb-bg.jpg);
+    background-size: 100% 100% ;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        color: #F45D96;
+    }
+}
+.ourserv{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    margin-top: 5%;
+    gap: 100px;
+}
+.services{
+    width: 100%;
+    .servicetext{
+        
+        h4{
+            color: #F45D96;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+    }
+
+    .servicecarts{
+width: 100%;
+margin: 5% 0;
+        .servicecart{
+            margin-top: 45px;
+            padding: 20px;
+            border: 1px solid rgb(221, 221, 221);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .simg{
+                position: absolute;
+                top: -40px;
+                background-color: white;
+            }
+            h3{
+                margin-top: 5%;
+            }
+            p{
+                width: 60%;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+.text{
+    span{
+        color: #F45D96;
+        font-weight: 700;
+        
+    }
+    p{
+        margin-top: 30px;
+    }
+
+    div .st{
+        display: flex;
+    }
+}
+.quote{
+    margin: 10% 0;
+    display: flex;
+   padding: 50px;
+    flex-direction: column;
+    position: relative;
+    background-color: #F7F5FA;
+    height: 500px;
+    h2{
+        text-align: center;
+    }
+    form{
+       
+       
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        input{
+            height: 40px;
+            width: 370px;
+            margin-top: 30px;
+            border: none;
+            padding: 10px;
+        }
+        #area{
+            width: 100%;
+            height: 80px;
+            
+        }
+        button{
+            display: block;
+            border: none;
+            color: white;
+            background-color: black;
+            width: 130px;
+            height: 60px;
+            position: absolute;
+            bottom: 40px;
+        }
+    }
+}

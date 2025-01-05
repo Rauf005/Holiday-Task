@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    
+    font-family: "Libre Baskerville",sans-serif;
+}
+.linfo{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+}
+.linfo .info{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 30px;
+}
+.linfo .info div{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+
+}
+
+
+.flowersorts{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));  
+    
+    justify-content: space-between;
+
+}
+.flowersorts .flowersort{
+    position: relative;
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+.flowersorts .flowersort .flowertext{
+position: absolute;
+background-color: white;
+bottom: 30px;
+width: 80%;
+margin: 0 auto;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.about{
+    position: relative;
+    width: 90%;
+    margin: 5% auto;
+}
+.about .aboutext{
+    display: flex;
+    gap: 10%;
+    
+    span{
+        color: #F45D96;
+        font-size: 20px;
+    }
+    p{
+        color: gray;
+        font-size: 20px;
+        
+    }
+    h1{
+        font-size: 50px;
+        width: 450px;
+    }
+}
+.about .bb{
+    margin-top: 30px;
+    display: flex;
+    .aa{
+        position: absolute;
+        background-color: white;
+        top: 200px;
+        left: 680px;
+        width: 650px;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        
+
+        span{
+            color: #F45D96;
+            font-size: 20px;
+            margin: 5% 0 10px 0;
+        }
+        h1{
+            font-size: 50px;
+            
+        }
+        p{
+            font-size: 20px;
+            color: gray;
+            margin-top: 20px;
+            
+        }
+        button{
+            width: 170px;
+            border: none;
+            border-radius: 30px;
+            padding: 15px 0;
+            background-color: #F45D96;
+            color: white;
+            margin-top: 20px;
+            .ta{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.cards{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    .card{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        span{
+            font-weight: 700;
+        }
+        img{
+            width: 100%;
+        }
+        &:hover .cardhover{
+            overflow: hidden;
+            transform: translateY(0);
+            bottom: 23%;
+            display: flex;
+
+        }
+
+    }
+}
+
+.cardhover{
+    transition: 2s;
+    position: absolute;
+    display: none;
+    transform: translateY(100px);
+    
+    
+    
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    
+}
+.cardimg .cardhover p{
+    overflow: hidden;
+    
+   
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    &:hover {
+        background-color: #F45D96;
+        color: white;
+    }
+}
+.products{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+    h4{
+        color: #F45D96;
+    }
+    h1{
+        margin: 10px 0;
+    }
+}
+.products .morebtn{
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    margin: 5% 0;
+    
+}
+
+.custom{
+    background-image: url(	https://preview.colorlib.com/theme/florist/img/call-bg.jpg);
+    height: 61vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.custom div{
+    width: 40%;
+    color: white;
+    margin-left:5% ;
+    p{
+        font-size: 20px;
+    }
+}
+.custom button{
+    
+    margin-left: 20px;
+    width: 170px;
+            border: none;
+            border-radius: 30px;
+            padding: 15px 0;
+            background-color: #F45D96;
+            color: white;
+            margin-top: 20px;
+            .ta{
+                color: white;
+                text-decoration: none;
+            }
+            
+}
+.custom .con{
+    width: 170px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 0;
+    background-color: white;
+    color: #F45D96;
+    margin-top: 20px;
+    .ta{
+        color: #F45D96;
+        text-decoration: none;
+    }
+}
+.comment{
+    height: 70vh;
+    background: url(	https://preview.colorlib.com/theme/florist/img/testimonial/left-bg.png),url(https://preview.colorlib.com/theme/florist/img/testimonial/right-bg.png);
+
+    
+    background-position: left top, right bottom;  
+  background-repeat: no-repeat, no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .commentext{
+    width: 40%;
+    h5{
+        text-align: center;
+        font-weight: 700;
+
+    }
+    h6{
+        text-align: center;
+        font-weight: 500;
+
+    }
+  }
+}
+
+.florist{
+    margin: 5% auto;
+    width: 90%;
+}
+.florist .floristcards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+}
+.florist .floristcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover h3{
+text-decoration: underline;
+    }
+    h3{
+        font-size: 20px;
+        padding: 20px 20px 0 20px ;
+        text-align: center;
+    }
+    p{
+        padding: 20px 20px 0 20px;
+        color: gray;
+        text-align: center;
+    }
+    span{
+        padding: 20px 20px 0 20px;
+        font-size: 13px;
+        color: gray;
+    }
+}
+.florist .floristhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    div{
+        p{color: #F45D96;}
+    }
+    button{
+        width: 170px;
+        border: 2px solid #F45D96;
+        border-radius: 30px;
+        padding: 15px 0;
+        background-color: white;
+        color: black;
+        margin-top: 20px;
+        .ta{
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
