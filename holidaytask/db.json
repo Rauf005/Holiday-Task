@@ -1,155 +1,213 @@
 {
-    "flowers": [
-      {
-        "id": 1,
-        "name": "Rose",
-        "price": 15.99,
-        "categories": ["Bouquet", "Romantic", "Red"],
-        "product_code": "FLW001",
-        "reward_points": 5,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/categories/categories-1.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Tulip",
-        "price": 12.50,
-        "categories": ["Spring", "Colorful"],
-        "product_code": "FLW002",
-        "reward_points": 4,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/categories/categories-3.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Lily",
-        "price": 18.30,
-        "categories": ["Elegant", "White", "Wedding"],
-        "product_code": "FLW003",
-        "reward_points": 6,
-        "availability": "Out of Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/categories/categories-2.jpg.webp"
-      },
-      {
-        "id": 4,
-        "name": "Daisy",
-        "price": 9.99,
-        "categories": ["Simple", "Yellow", "Bright"],
-        "product_code": "FLW004",
-        "reward_points": 3,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-1.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Orchid",
-        "price": 25.00,
-        "categories": ["Exotic", "Purple", "Luxury"],
-        "product_code": "FLW005",
-        "reward_points": 8,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-2.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Sunflower",
-        "price": 10.75,
-        "categories": ["Summer", "Yellow", "Bright"],
-        "product_code": "FLW006",
-        "reward_points": 4,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-4.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Peony",
-        "price": 22.00,
-        "categories": ["Romantic", "Pink", "Bouquet"],
-        "product_code": "FLW007",
-        "reward_points": 7,
-        "availability": "Out of Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-5.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Carnation",
-        "price": 11.50,
-        "categories": ["Traditional", "Red", "Wedding"],
-        "product_code": "FLW008",
-        "reward_points": 5,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-6.jpg"
-      },
-      {
-        "id": 9,
-        "name": "Chrysanthemum",
-        "price": 13.99,
-        "categories": ["Autumn", "Red", "Colorful"],
-        "product_code": "FLW009",
-        "reward_points": 6,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-7.jpg.webp"
-      },
-      {
-        "id": 10,
-        "name": "Jasmine",
-        "price": 16.75,
-        "categories": ["Scented", "White", "Exotic"],
-        "product_code": "FLW010",
-        "reward_points": 5,
-        "availability": "Out of Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-10.jpg"
-      },
-      {
-        "id": 11,
-        "name": "Lavender",
-        "price": 14.00,
-        "categories": ["Scented", "Purple", "Relaxation"],
-        "product_code": "FLW011",
-        "reward_points": 6,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-12.jpg"
-      },
-      {
-        "id": 12,
-        "name": "Gerbera",
-        "price": 20.25,
-        "categories": ["Colorful", "Bright", "Summer"],
-        "product_code": "FLW012",
-        "reward_points": 7,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-13.jpg"
-      },
-      {
-        "id": 13,
-        "name": "Magnolia",
-        "price": 28.50,
-        "categories": ["Luxury", "White", "Elegant"],
-        "product_code": "FLW013",
-        "reward_points": 10,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-15.jpg"
-      },
-      {
-        "id": 14,
-        "name": "Freesia",
-        "price": 17.00,
-        "categories": ["Fragrant", "Spring", "Yellow"],
-        "product_code": "FLW014",
-        "reward_points": 6,
-        "availability": "Out of Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-14.jpg"
-      },
-      {
-        "id": 15,
-        "name": "Violet",
-        "price": 8.75,
-        "categories": ["Purple", "Romantic", "Delicate"],
-        "product_code": "FLW015",
-        "reward_points": 3,
-        "availability": "In Stock",
-        "image":"https://preview.colorlib.com/theme/florist/img/product/product-11.jpg"
-      }
-    ]
-  }
-  
+  "flowers": [
+    {
+      "name": "Rose",
+      "categories": [
+        "Bouquet",
+        "Romantic",
+        "Red"
+      ],
+      "product_code": "FLW001",
+      "reward_points": 5,
+      "price": 5.99,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/categories/categories-1.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Tulip",
+      "price": 12.5,
+      "categories": [
+        "Spring",
+        "Colorful"
+      ],
+      "product_code": "FLW002",
+      "reward_points": 4,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/categories/categories-3.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Lily",
+      "price": 18.3,
+      "categories": [
+        "Elegant",
+        "White",
+        "Wedding"
+      ],
+      "product_code": "FLW003",
+      "reward_points": 6,
+      "availability": "Out of Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/categories/categories-2.jpg.webp"
+    },
+    {
+      "id": "4",
+      "name": "Daisy",
+      "price": 9.99,
+      "categories": [
+        "Simple",
+        "Yellow",
+        "Bright"
+      ],
+      "product_code": "FLW004",
+      "reward_points": 3,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-1.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Orchid",
+      "price": 25,
+      "categories": [
+        "Exotic",
+        "Purple",
+        "Luxury"
+      ],
+      "product_code": "FLW005",
+      "reward_points": 8,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-2.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Sunflower",
+      "price": 10.75,
+      "categories": [
+        "Summer",
+        "Yellow",
+        "Bright"
+      ],
+      "product_code": "FLW006",
+      "reward_points": 4,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-4.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Peony",
+      "price": 22,
+      "categories": [
+        "Romantic",
+        "Pink",
+        "Bouquet"
+      ],
+      "product_code": "FLW007",
+      "reward_points": 7,
+      "availability": "Out of Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-5.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Carnation",
+      "price": 11.5,
+      "categories": [
+        "Traditional",
+        "Red",
+        "Wedding"
+      ],
+      "product_code": "FLW008",
+      "reward_points": 5,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-6.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Chrysanthemum",
+      "price": 13.99,
+      "categories": [
+        "Autumn",
+        "Red",
+        "Colorful"
+      ],
+      "product_code": "FLW009",
+      "reward_points": 6,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-7.jpg.webp"
+    },
+    {
+      "id": "10",
+      "name": "Jasmine",
+      "price": 16.75,
+      "categories": [
+        "Scented",
+        "White",
+        "Exotic"
+      ],
+      "product_code": "FLW010",
+      "reward_points": 5,
+      "availability": "Out of Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-10.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Lavender",
+      "price": 14,
+      "categories": [
+        "Scented",
+        "Purple",
+        "Relaxation"
+      ],
+      "product_code": "FLW011",
+      "reward_points": 6,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-12.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Gerbera",
+      "price": 20.25,
+      "categories": [
+        "Colorful",
+        "Bright",
+        "Summer"
+      ],
+      "product_code": "FLW012",
+      "reward_points": 7,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-13.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Magnolia",
+      "price": 28.5,
+      "categories": [
+        "Luxury",
+        "White",
+        "Elegant"
+      ],
+      "product_code": "FLW013",
+      "reward_points": 10,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-15.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Freesia",
+      "price": 17,
+      "categories": [
+        "Fragrant",
+        "Spring",
+        "Yellow"
+      ],
+      "product_code": "FLW014",
+      "reward_points": 6,
+      "availability": "Out of Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-14.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Violet",
+      "price": 8.75,
+      "categories": [
+        "Purple",
+        "Romantic",
+        "Delicate"
+      ],
+      "product_code": "FLW015",
+      "reward_points": 3,
+      "availability": "In Stock",
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-11.jpg"
+    }
+  ]
+}

@@ -7,6 +7,34 @@
     
     font-family: "Libre Baskerville",sans-serif;
 }
+.da{position: relative;}
+.as{
+    position: absolute;
+    bottom: 120px;
+    right: 600px;
+    width: 50%;
+    p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    h2{
+        font-size: 40px;
+    }
+    button{
+        margin-left: 20px;
+        width: 170px;
+                border: none;
+                border-radius: 30px;
+                padding: 15px 0;
+                background-color: #F45D96;
+                color: white;
+                margin-top: 20px;
+                .ta{
+                    color: white;
+                    text-decoration: none;
+                }
+    }
+}
 .linfo{
     width: 90%;
     margin: 0 auto;

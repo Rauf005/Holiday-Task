@@ -1,0 +1,13 @@
+.end{
+   
+    border-top: 1px solid gray;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+}
+.end span{
+    color: #F16093;
+}

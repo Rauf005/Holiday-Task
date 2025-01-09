@@ -51,7 +51,7 @@ function Home() {
   return (
     <div className={style.home}>
       <section id='carousel'>
-        <div style={{ display: 'block', width: 1565 }}>
+        <div className={style.da} style={{ display: 'block', width: 1565 }}>
           <Carousel>
             <Carousel.Item interval={1500}>
               <img
@@ -60,8 +60,11 @@ function Home() {
                 alt="Image One"
               />
               <Carousel.Caption className="text-start" style={{ color: 'black' }}>
+                <div className={style.as}>
                 <p>Fresh flower & gift shop</p>
-                <h3>Making Beautiful Flower A Part Of Your Life</h3>
+                <h2>Making Beautiful Flower A Part Of Your Life</h2>
+                <button><Link className={style.ta} to="/shop" >Shop Now</Link></button>
+                </div>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
@@ -71,8 +74,11 @@ function Home() {
                 alt="Image Two"
               />
               <Carousel.Caption className="text-start" style={{ color: 'black' }}>
+              <div className={style.as}>
                 <p>Fresh flower & gift shop</p>
-                <h3>Making Beautiful Flower A Part Of Your Life</h3>
+                <h2>Making Beautiful Flower A Part Of Your Life</h2>
+                <button><Link className={style.ta} to="/shop" >Shop Now</Link></button>
+                </div>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
